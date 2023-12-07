@@ -15,15 +15,12 @@ html {
   --text-color-red: #ff4321;
   --text-color-black: black;
   --text-color1: #ff4321;
-  --background-img: linear-gradient(135deg, #ff57b9 0%, #a204fd 90%);
+  --background-img: linear-gradient(135deg, #ff57b9d5 0%, #a204fdc9 90%);
   --background-img1: linear-gradient(160deg, #00c53e, #3f00df 160%);
-  --background-img2: linear-gradient(135deg, #546f9e 0%, #82298a 100%);
+  --background-img2: linear-gradient(35deg, #546f9e 0%, #82298a 100%);
   --background-img3: linear-gradient(160deg, #009b31ea, #3f00dff5 160%);
-  --background-img4: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 0.308) 0%,
-    rgba(154, 148, 233, 0.418) 100%
-  );
+  --background-img4: radial-gradient(circle,rgba(238, 174, 202, 0.308) 0%,rgba(154, 148, 233, 0.418) 100%
+);
   --bg-color: rgba(226, 226, 226, 0.514);
   --bg-color1: #f7f7f7cb;
   --background-color-btn: #e0e0e03b;
@@ -363,6 +360,7 @@ button {
 .skills-col1 {
   text-align: center;
   background-image: var(--background-img);
+  background-color: rgb(218, 218, 218);
   color: var(--text-color);
   border-color: var(--border-color);
   flex-basis: 30%;

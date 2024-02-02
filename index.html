@@ -24,7 +24,8 @@
   </head>
   <body>
     <!-- ----------------home----------------- -->
-    <div id="home">
+    <div class="cursor"></div>
+    <div id="home" >
       <div id="header">
         <div class="container">
           <nav>
@@ -33,7 +34,6 @@
               <li><a href="#Skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#Educations">Education</a></li>
-              <li><a href="#contact">Contact</a></li>
             </ul>
             <button id="toggle-btn">
               <img src="./images/sun.png" id="btn-img" />
@@ -41,36 +41,71 @@
           </nav>
         </div>
 
-        <div class="header-text animated-container">
-          <p>Hi I'm</p>
-          <h1>PATMESH.<span>S</span></h1>
-        </div>
-        <div class="content animated-container">
-          <h3>A Computer Science and Engineering Student</h3>
-          <div class="flx">
-            <img class="img11" src="images/bg.gif" alt="img" />
-            <div class="design"></div>
+        <div class="home-flex-area">
+          <div class="abt-content">
+            <div class="header-text animated-container">
+              <p>Hello!&nbsp; I'm</p>
+              <h1>Patmesh S</h1>
+            </div>
+            <div class="content animated-container">
+              <h3>A Passionate Full stack Developer⚡</h3>
+              <div class="flx1">
+                <img src="/images/patmesh.jpg">
+              </div>
+              <div class="navigation">
+                <a href="/images/ress.pdf" class="button-87">Download CV</a>
+              </div>
+              <div class="wrapper animated-container">
+                <div class="button">
+                  <div class="icon">
+                    <span
+                      onclick="window.open('https://www.facebook.com/patmesh.patmesh')"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></span>
+                  </div>
+                  
+                </div>
+                <div class="button">
+                  <div class="icon">
+                    <span
+                      onclick="window.open('https://api.whatsapp.com/send?phone=916383195906')"
+                      > 
+                      <i
+                      class="fa-brands fa-square-whatsapp"
+                    ></i
+                  ></span>
+                  </div>
+                </div>
+                <div class="button">
+                  <div class="icon">
+                    <span
+                      onclick="window.open('mailto:')"
+                      > 
+                      <i
+                          class="fa-solid fa-envelope"
+                        ></i>  
+                    </span>
+                  </div>
+                </div>
+                <div class="button">
+                  <div class="icon">
+                    <span onclick="window.open('https://www.instagram.com/patmesh__/')"
+                      ><i class="fab fa-instagram"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="button">
+                  <div class="icon">
+                    <span onclick="window.open('https://github.com/PATMESH')"
+                      ><i class="fa-brands fa-github"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="navigation">
-            <lord-icon
-              src="https://cdn.lordicon.com/zmkotitn.json"
-              trigger="loop"
-              delay="2000"
-              colors="primary:#e83a30"
-              state="hover-2"
-              style="width: 50px; height: 50px"
-              class="arrow"
-            ></lord-icon>
-            <a href="/images/ress.pdf" class="button-87">Download CV</a>
-          </div>
-          <div class="wrap">
-            <p>
-              I'm a quick leaner and SmartWorking person with never giving up
-              Attitude. As a fresher I am excited to apply my skills and
-              knowledge to contribute to the growth of a tech organization that
-              can help me in enhancing my skills, strengthening my knowledge and
-              realising my potential.
-            </p>
+          <div class="flx animated-container">
+            <img src="/images/patmesh.jpg">
           </div>
         </div>
       </div>
@@ -79,18 +114,16 @@
     <!-- ----------------Skills----------------- -->
     <div id="Skills" class="animated-container">
       <br />
-      <h2 class="center">Skills</h2>
+      <h2 class="center">About & Skills</h2>
       <div class="container">
         <div class="row">
-          <div class="skills-col1 animated-container">
-            <h2>Programming Languages</h2>
-            <div class="content animated-container">
+          <h4>I specialize in ReactJS, Node.js, and Spring Boot, with a strong foundation in relational databases and networking. My expertise is complemented by a deep understanding of computer fundamentals. As a quick learner and self-motivated individual, my resilient 'never-give-up' attitude drives my continuous growth.</h4>
               <button class="btn">
-                <i class="fa-brands fa-java fa-lg" style="color: #9e5d13"></i>
+                <i class="fa-brands fa-java fa-lg" style="color: #e2851a"></i>
                 &nbspJava SE
               </button>
               <button class="btn">
-                <i class="fa-solid fa-database" style="color: #5c6466"></i>
+                <i class="fa-solid fa-database" style="color: #066780"></i>
                 &nbspMySQL
               </button>
               <button class="btn">
@@ -145,11 +178,6 @@
                 </svg>
                 &nbspC++
               </button>
-            </div>
-          </div>
-          <div class="skills-col2 animated-container">
-            <h2>FrontEnd</h2>
-            <div class="content animated-container">
               <button class="btn">
                 <i class="fa-brands fa-html5" style="color: #df2302"></i>
                 &nbspHTML5
@@ -169,11 +197,6 @@
                 ></i>
                 &nbspReactJs
               </button>
-            </div>
-          </div>
-          <div class="skills-col3 animated-container">
-            <h2>Frameworks and Tools</h2>
-            <div class="content animated-container">
               <button class="btn">
                 <img
                   src="https://img.icons8.com/color/30/null/spring-logo.png"
@@ -184,16 +207,17 @@
                 &nbspGit
               </button>
               <button class="btn">
+                <img width="30" height="30" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/>
+                &nbsp; mongodb
+              </button>
+              <button class="btn">
+                <img width="30" height="30" src="https://img.icons8.com/color/48/google-firebase-console.png" alt="google-firebase-console"/>
+                &nbsp; Firebase
+              </button>
+              <button class="btn">
                 <i class="fa-brands fa-linux" style="color: #6e5308"></i>
                 &nbspLinux
               </button>
-              <button class="btn">
-                <i class="fa-brands fa-windows" style="color: #0078d7"></i>
-                &nbspWindows
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -514,8 +538,7 @@
                 Higher Secondary
               </h3>
               <span class="subtitle"
-                >P.K.P Swami Matric Higher secondary school,Erode</span
-              >
+                >P.K.P Swamy Matric Higher secondary school,Erode</span>
               <div class="calander">
                 <i class="fa-solid fa-calendar-days"></i> 2019-2020
               </div>
@@ -536,6 +559,8 @@
         </div>
       </div>
     </div>
+
+
     <!-- -------------------- Certification --------------------- -->
     <div class="animated-container">
       <h2 class="cert"><i class="fa-solid fa-file-code"></i> Certifications</h2>
@@ -554,21 +579,6 @@
           <div class="certification-credential animated-container" onclick="window.open('https://cert.diceid.com/csr/cid/LE5tDr')" onclick="window.open('https://cert.diceid.com/csr/cid/LE5tDr')">Show Credential</div>
         </div>
 
-        <!-- Udemy Java Network Programming Certification -->
-        <div class="certification-container animated-container">
-          <div style="display: flex" class="animated-container">
-          <img
-            src="./images/udemy_logo.png"
-            alt="Udemy Logo"
-            class="certification-logo"
-          />
-          <div class="certification-title animated-container">Java Network Programming</div></div>
-          <div class="certification-organization animated-container">Udemy</div>
-          <div class="certification-date animated-container">Issued Oct 2023</div>
-          <div class="certification-credential animated-container" onclick="window.open('https://www.udemy.com/certificate/UC-81a69faf-56fc-4bbc-a51f-68cf251b1eb1/')" onclick="window.open('https://cert.diceid.com/csr/cid/LE5tDr')">
-            Show Credential
-          </div>          
-        </div>
 
         <!-- Udemy Data Structures and Algorithm Certification -->
         <div class="certification-container animated-container">
@@ -609,22 +619,7 @@
           <div class="certification-date animated-container">Issued May 2023</div>
           <div class="certification-credential animated-container" onclick="window.open('https://www.credly.com/badges/4d0cee91-5a1f-4115-8001-9ca0ea298faa/linked_in_profile')">Show Credential</div>
         </div>
-
-        <!-- Microsoft Power Platform Fundamentals Certification -->
-        <div class="certification-container animated-container">
-          <div style="display: flex" class="animated-container">
-          <img
-            src="./images/microsoft_logo.png"
-            alt="Microsoft Logo"
-            class="certification-logo"
-          />
-          <div class="certification-title animated-container">
-            Microsoft Certified: Power Platform Fundamentals
-          </div></div>
-          <div class="certification-organization animated-container">Microsoft</div>
-          <div class="certification-date animated-container">Issued May 2023</div>
-          <div class="certification-credential animated-container" onclick="window.open('https://www.credly.com/badges/476638e0-f375-4e84-bb41-58e9ea1bd5db/public_url')">Show Credential</div>
-        </div>
+        
 
         <!-- GUVI Geek Networks JavaScript Certification -->
         <div class="certification-container animated-container">
@@ -687,123 +682,6 @@
         </div>
       </div>
     </div>
-    <!-- Contact Section -->
-
-    <div id="contact" class="animated-container">
-      <div class="contact container">
-        <div>
-          <h2>
-            <i class="fa-solid fa-user fa-beat-fade" style="color: #012460"></i
-            >&nbspContact info
-          </h2>
-        </div>
-        <div class="contact-items" onclick="window.open('https://api.whatsapp.com/send?phone=916383195906')">
-          <div class="contact-item animated-container">
-            <div class="contact-info animated-container">
-              <i
-                  class="fa-brands fa-square-whatsapp fa-bounce"
-                  style="color: #05761b; font-size: 32px"
-                ></i
-              >
-              <h2>Phone</h2>
-              <h4>+91 6383195906</h4>
-            </div>
-          </div>
-          <div class="contact-item animated-container" onclick="window.open('mailto:abc@example.com')">
-            <div class="contact-info animated-container">
-              <i
-                class="fa-solid fa-envelope fa-bounce"
-                style="font-size: 32px; color: #003694"
-              ></i>
-              <h2>Email</h2>
-              <h4>patmeshpatmesh2003@gmail.com</h4>
-            </div>
-          </div>
-          <div class="contact-item animated-container" onclick="window.open('https://maps.app.goo.gl/tgdRUWPmFjtWaj3P8')">
-            <div class="contact-info animated-container">
-              <i
-                class="fa-sharp fa-solid fa-location-dot fa-bounce"
-                style="font-size: 28px; color: #a56215"
-              ></i>
-              <h2>Address</h2>
-              <h4>
-                Periyur(main street), Kolanalli(PO) Pasur(via),Erode, TamilNadu,
-                638154
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="wrapper">
-      <div class="button">
-        <div class="icon">
-          <span
-            onclick="window.open('https://www.facebook.com/patmesh.patmesh')"
-            ><i class="fa-brands fa-linkedin"></i
-          ></span>
-        </div>
-        <span onclick="window.open('https://www.facebook.com/patmesh.patmesh')"
-          >Linkedin</span
-        >
-      </div>
-      <div class="button">
-        <div class="icon">
-          <span onclick="window.open('https://www.instagram.com/patmesh__/')"
-            ><i class="fab fa-instagram"></i
-          ></span>
-        </div>
-        <span onclick="window.open('https://www.instagram.com/patmesh__/')"
-          >Instagram</span
-        >
-      </div>
-      <div class="button">
-        <div class="icon">
-          <span onclick="window.open('https://github.com/PATMESH')"
-            ><i class="fa-brands fa-github"></i
-          ></span>
-        </div>
-        <span onclick="window.open('https://github.com/PATMESH')">GitHub</span>
-      </div>
-      <div class="button">
-        <div class="icon">
-          <span
-            onclick="window.open('https://www.hackerrank.com/patmeshpatmesh21')"
-            ><i class="fa-brands fa-hackerrank"></i
-          ></span>
-        </div>
-        <span
-          onclick="window.open('https://www.hackerrank.com/patmeshpatmesh21')"
-          >Hackerrank</span
-        >
-      </div>
-      <div class="button">
-        <div class="icon" style="text-align: center">
-          <span
-            onclick="window.open('https://leetcode.com/Patmesh_SenthilKumar')"
-          >
-            <svg viewBox="-12 -12 50 36" id="leetcode">
-              <path
-                fill="#B3B1B0"
-                d="M22 14c0-.74-.56-1.34-1.26-1.34H10.68c-.7 0-1.26.6-1.26 1.34s.56 1.34 1.26 1.34H20.74c.7 0 1.26-.6 1.26-1.34z"
-              ></path>
-              <path
-                fill="#E7A41F"
-                d="m3.48 18.19 4.31 4.36c.97.98 2.32 1.45 3.8 1.45 1.48 0 2.83-.51 3.81-1.49l2.59-2.64c.51-.51.49-1.36-.04-1.9-.53-.54-1.37-.55-1.88-.04l-2.68 2.61c-.46.47-1.1.66-1.81.66s-1.35-.2-1.81-.66l-4.29-4.36c-.46-.47-.7-1.15-.7-1.86 0-.71.23-1.36.7-1.82l4.29-4.38c.46-.47 1.12-.65 1.82-.65s1.35.19 1.81.66l2.68 2.61c.51.51 1.35.49 1.89-.04.53-.54.55-1.39.04-1.9l-2.59-2.64a4.99 4.99 0 0 0-2.39-1.33l-.03-.01 2.45-2.5c.51-.51.49-1.37-.04-1.9-.53-.54-1.38-.55-1.89-.04l-10.02 10.1c-.98 1 .52 2.36 1.48 3.87z"
-              ></path>
-              <path
-                fill="#50504c"
-                d="M8.12 22.81a2.11 2.11 0 0 1-.47-.36c-1.33-1.33-2.66-2.66-3.98-4-1.99-2.01-2.3-4.94-.79-7.32a6 6 0 0 1 .84-1L13.33.49c.63-.63 1.5-.65 2.08-.07.56.56.53 1.46-.08 2.07-.77.78-1.54 1.55-2.31 2.32-.04.12-.14.2-.23.29-.86.88-1.75 1.73-2.6 2.62-.11.12-.26.19-.37.31-1.42 1.42-2.86 2.83-4.27 4.27-1.14 1.17-1.1 2.94.07 4.13 1.31 1.34 2.64 2.65 3.96 3.97.07.07.14.13.2.2.47.3.47 1.25.18 1.67-.32.46-.74.75-1.33.73-.2-.01-.37-.09-.53-.18z"
-              ></path></svg
-          ></span>
-        </div>
-        <span onclick="window.open('https://leetcode.com/Patmesh_SenthilKumar')"
-          >Leetcode</span
-        >
-      </div>
-    </div>
-    <!-- End Contact Section -->
     <script>
       let btn = document.getElementById("toggle-btn");
       let txt = document.getElementById("btn-txt");

@@ -277,9 +277,6 @@ nav ul li a:hover::after {
     height: 0px;
     width: 0px;
   }
-  .header-text p {
-    margin-top: 17%;
-  }
   .flx{
     display: none;
     width: 0%;

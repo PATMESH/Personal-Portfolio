@@ -400,9 +400,10 @@ button {
   .btn{
     width: 160px;
     font-size: 18px;
+    margin: 5px;
   }
   .row{
-    padding: 1px;
+    padding: 8px;
   }
 }
 
@@ -802,6 +803,7 @@ h3 {
   display: flex;
   margin-bottom: 40px;
 }
+
 .wrapper .button {
   height: 60px;
   width: 60px;
@@ -810,6 +812,7 @@ h3 {
   background: var(--background-color);
   border-radius: 50px;
   cursor: pointer;
+  border: 1px solid rgba(238, 130, 238, 0.226);
   box-shadow: 2px 14px 14px rgba(0, 0, 0, 0.226);
   transition: all 0.3s ease-out;
 }
@@ -821,7 +824,6 @@ h3 {
   text-align: center;
   border-radius: 50px;
   box-sizing: border-box;
-  line-height: 60px;
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1):hover .icon {
@@ -889,8 +891,6 @@ body::-webkit-scrollbar {
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000;
 }
-
-
 
 .cursor {
   position: fixed;

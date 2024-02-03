@@ -129,7 +129,7 @@ nav ul li a:hover::after {
 .header-text {
   margin-top: 10%;
   text-align: center;
-  text-shadow: 1px 2px 4px rgba(212, 152, 212, 0.377);
+  text-shadow: 1px 2px 4px rgba(212, 152, 212, 0.24);
 }
 .header-text p {
   font-size: 26px;
@@ -257,6 +257,7 @@ nav ul li a:hover::after {
     height: 30px;
     border-radius: 20px;
     margin-top: 6px;
+    margin-right: 12px;
   }
   #toggle-btn img {
     width: 15px;
@@ -475,7 +476,7 @@ h3 {
   height: 130px;
   padding: 2px;
   background-color: var(--bg-color);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .container_pr11 img,
 .container_pr21 img,
@@ -486,15 +487,15 @@ h3 {
 }
 
 #projects .container_pr1:hover {
-  box-shadow: 0px 0px 10px 2px var(--bg-color1);
+  box-shadow: 0px 0px 5px 2px var(--bg-color1);
   border-radius: 10px;
 }
 #projects .container_pr2:hover {
-  box-shadow: 0px 0px 10px 2px var(--bg-color1);
+  box-shadow: 0px 0px 5px 2px var(--bg-color1);
   border-radius: 10px;
 }
 #projects .container_pr3:hover {
-  box-shadow: 0px 0px 10px 2px var(--bg-color1);
+  box-shadow: 0px 0px 5px 2px var(--bg-color1);
   border-radius: 10px;
 }
 
@@ -567,7 +568,7 @@ h3 {
     width: 98%;
     padding: 10px 10px 10px 10px;
     height: 140px;
-    border-radius: 15px;
+    border-radius: 8px;
     box-shadow: 1px 1px 1px 1px #0000002c;
     transition: 0.5s ease box-shadow;
   }
@@ -646,12 +647,12 @@ h3 {
   margin: 10px 10px 10px 10px;
   padding: 25px 25px;
   position: relative;
-  border-radius: 10px;
-  box-shadow: 1px 1px 1px 1px #0000002c;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #0000001a;
   transition: 0.5s ease box-shadow;
 }
 .data1:hover {
-  box-shadow: 0px 0px 10px 2px var(--bg-color1);
+  box-shadow: 0px 0px 6px 2px var(--bg-color1);
 }
 
 .data1 h3 {
@@ -694,7 +695,7 @@ h3 {
 @media screen and (max-width: 767px) {
   .data1 {
     margin-left: 1px;
-    margin-right: 5px;
+    margin-right: 1px;
     padding: 13px 10px;
     justify-content: left;
   }
@@ -702,7 +703,7 @@ h3 {
     padding: 10px;
   }
   .data_right .line {
-    left: -9.5%;
+    left: -10%;
   }
   .timeline {
     margin: 50px auto;
@@ -741,7 +742,7 @@ h3 {
 }
 
 .certification-container:hover {
-  box-shadow: 0px 0px 10px 2px var(--bg-color1);
+  box-shadow: 0px 0px 6px 1px var(--bg-color1);
   border-radius: 10px;
 }
 

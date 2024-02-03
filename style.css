@@ -262,16 +262,10 @@ nav ul li a:hover::after {
     width: 15px;
   }
   .header-text h1 {
-    margin-left: 25px;
     font-size: 30px;
   }
   .content p {
     font-size: 18px;
-  }
-  .img11 {
-    margin-left: 23%;
-    width: 250px;
-    height: 170px;
   }
   .design {
     height: 0px;
@@ -836,7 +830,7 @@ h3 {
   background: #c5a16c8a;
 }
 .wrapper .button:nth-child(4):hover .icon {
-  background: #007a06;
+  background: rgb(160, 0, 67);
 }
 .wrapper .button:nth-child(5):hover .icon {
   background: #821fbb;

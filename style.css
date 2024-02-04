@@ -951,4 +951,7 @@ body::-webkit-scrollbar {
   .footer h2{
     font-size: smaller;
   }
+  .footer {
+    margin-top: 25%;
+  }
 }

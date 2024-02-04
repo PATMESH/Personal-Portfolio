@@ -311,7 +311,6 @@ nav ul li a:hover::after {
 .center {
   color: rgb(173, 147, 0);
   font-family: var(--ff-saira-stencil-one);
-  margin-left: 30px;
   font-size: 30px;
   text-align: center;
   margin-bottom: 40px;

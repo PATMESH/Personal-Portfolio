@@ -379,6 +379,10 @@ button {
   box-shadow: 0px 0px 5px 2px #9d16f7;
 }
 
+.btn i{
+  font-size: 30px;
+}
+
 
 #a {
   padding-top: 10px;
@@ -409,6 +413,9 @@ button {
   }
   .row{
     padding: 8px;
+  }
+  .btn i{
+    font-size: 24px;
   }
 }
 

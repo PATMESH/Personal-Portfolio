@@ -127,7 +127,7 @@ nav ul li a:hover::after {
   position: absolute;
 }
 .header-text {
-  margin-top: 10%;
+  margin-top: 4%;
   text-align: center;
   text-shadow: 1px 2px 4px rgba(212, 152, 212, 0.24);
 }
@@ -174,9 +174,16 @@ nav ul li a:hover::after {
   height: 270px;
 }
 .flx img{
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 1px rgba(102, 51, 153, 0.507);
-  animation:float 3s linear infinite;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px dotted rgba(132, 0, 255, 0.712);
+  box-shadow: 0px 0px 10px 2px rgba(102, 51, 153, 0.671);
+  animation:float 4s linear infinite;
+  transition: all 0.4s ease;
+}
+
+.flx img:hover{
+  box-shadow: 0px 0px 10px 3px rgb(102, 51, 153);
 }
 
 .flx {
@@ -185,7 +192,7 @@ nav ul li a:hover::after {
   display: flex;
 }
 .home-flex-area{
-  padding-top: 10%;
+  padding-top: 6%;
   display: flex;
   justify-content: space-around;
 }
@@ -198,7 +205,7 @@ nav ul li a:hover::after {
     transform: translateY(2px);
   }
   50%{
-    transform:  translateY(18px);
+    transform:  translateY(12px);
   }
   100% {
     transform:  translateY(2px);
@@ -213,7 +220,7 @@ nav ul li a:hover::after {
   transition: 0.5s;
   background-size: 200% auto;
   color: var(--text-color);
-  background-color: #b9cadd21;
+  background-color: #b1d5ff48;
   border-radius: 6px;
   text-decoration: none;
   display: block;
@@ -366,12 +373,15 @@ button {
   height: 50px;
   padding: 10px;
   margin: 6px;
-  border: 1px dotted red;
   margin-bottom: 15px;
   border-radius: 10px;
   border: 2px dotted #9d16f7;
   backdrop-filter: blur(3px);
   background-color: var(--background-color-btn1);
+}
+
+.btn:hover{
+  box-shadow: 0px 0px 5px 2px #9d16f7;
 }
 
 
@@ -417,8 +427,8 @@ button {
   font-family: var(--ff-saira-stencil-one);
   font-size: 33px;
   letter-spacing: 0.12em;
-  margin-top: 80px;
-  margin-bottom: 5px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .container_pr1,
@@ -467,7 +477,7 @@ h3 {
 .container_pr11 .left_side,
 .container_pr21 .left_side,
 .container_pr31 .left_side {
-  width: 60%;
+  width: 65%;
 }
 
 .container_pr11 .right_side,
@@ -554,9 +564,9 @@ h3 {
 }
 
 .link-icon{
-  color:rgba(255, 255, 255, 0.699);
-  background-color: #0004ff63;
-  padding: 7px;
+  color:rgb(20, 63, 255);
+  background-color: #0004ff2d;
+  padding: 5px;
   border-radius: 40px;
   font-size: 12px;
   cursor: pointer;
@@ -636,14 +646,14 @@ h3 {
   font-family: var(--ff-saira-stencil-one);
   color: rgb(173, 147, 0);
   letter-spacing: 0.21rem;
-  margin-top: 100px;
-  margin-bottom: 70px;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 .timeline {
   position: relative;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 .data {
   padding: 10px;
@@ -654,13 +664,14 @@ h3 {
 .data1 {
   background-image: var(--background-img2);
   color: var(--text-color);
-  margin: 10px 10px 10px 10px;
+  margin: 10px 15px 10px 15px;
   padding: 25px 25px;
   position: relative;
   border-radius: 5px;
   box-shadow: 1px 1px 1px 1px #0000001a;
   transition: 0.5s ease box-shadow;
 }
+
 .data1:hover {
   box-shadow: 0px 0px 6px 2px var(--bg-color1);
 }
@@ -677,16 +688,24 @@ h3 {
 }
 .data .line {
   text-align: center;
-  padding-top: 10px;
   background-color: rgb(127, 120, 151);
   height: 40px;
   position: absolute;
+  padding: 4px;
   width: 40px;
   border-radius: 50%;
   right: -20px;
-  top: 52px;
+  top: 40px;
   z-index: 10;
+  transition: all 0.1s ease;
 }
+
+.data .line:hover{
+  padding: 5px;
+  box-shadow: 0px 0px 3px 1px #8a16f7;
+  cursor: pointer;
+}
+
 .data_right .line {
   left: -3.5%;
 }
@@ -723,7 +742,6 @@ h3 {
 /***************** certifications ******************/
 
 #Certification {
-  margin-bottom: 10%;
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -760,8 +778,8 @@ h3 {
   max-width: 35px;
   max-height: 35px;
   margin-bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.164);
-  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.205);
+  padding: 4px;
   border-radius: 4px;
 }
 
@@ -794,9 +812,6 @@ h3 {
   .certification-container {
     width: 100%;
     margin-left: 3px;
-  }
-  #Certification{
-    margin-bottom: 50%;
   }
 }
 
@@ -841,7 +856,7 @@ h3 {
   background: #007a06;
 }
 .wrapper .button:nth-child(3):hover .icon {
-  background: #c5a16c8a;
+  background: #ff9900d5;
 }
 .wrapper .button:nth-child(4):hover .icon {
   background: rgb(160, 0, 67);
@@ -912,4 +927,16 @@ body::-webkit-scrollbar {
   transition: transform 0.1s ease-out, background-color 0.2s ease-out;
   transform-origin: center;
   mix-blend-mode: difference;
+}
+
+.footer{
+  margin-top: 10%;
+  height: 30px;
+  width: 100%;
+  background-color: var(--background-color-btn1);
+}
+.footer h2{
+  font-size: medium;
+  font-weight: 100;
+  text-align: center;
 }

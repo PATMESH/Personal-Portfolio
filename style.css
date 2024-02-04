@@ -269,30 +269,26 @@ nav ul li a:hover::after {
   #toggle-btn img {
     width: 15px;
   }
+  .header-text{
+    margin-top:30px;
+  }
   .header-text h1 {
-    font-size: 30px;
+    font-size: 36px;
+    margin-top: 6px;
   }
   .content p {
     font-size: 18px;
   }
-  .design {
-    height: 0px;
-    width: 0px;
-  }
-  .flx{
-    display: none;
-    width: 0%;
-  }
   .abt-content{
+    margin-top: 30%;
     width: 100%;
   }
-  .flx1{
-    display: contents;
+  .content h3{
+    font-size: 18px;
+    margin-top: 20px;
   }
-  .flx1 img{
-    border-radius: 8px;
-    margin-top: 10px;
-    box-shadow: 0px 0px 3px 1px rebeccapurple;
+  .button-87{
+    margin-top: 40px;
   }
 }
 
@@ -929,14 +925,24 @@ body::-webkit-scrollbar {
   mix-blend-mode: difference;
 }
 
-.footer{
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
   margin-top: 10%;
-  height: 30px;
   width: 100%;
+  text-shadow: 0px 2px 4px rgba(255, 143, 255, 0.568);
   background-color: var(--background-color-btn1);
 }
-.footer h2{
+
+.footer h2 {
   font-size: medium;
-  font-weight: 100;
+  font-family: "poppins";
   text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .footer h2{
+    font-size: smaller;
+  }
 }

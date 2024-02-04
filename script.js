@@ -16,24 +16,29 @@ const animationPath = 'lottie.json';
 
   document.addEventListener("DOMContentLoaded", function () {
     const animatedContainers = document.querySelectorAll(".animated-container");
-
+  
     function checkScroll() {
       animatedContainers.forEach((container) => {
         const rect = container.getBoundingClientRect();
         const windowHeight = window.innerHeight;
         const threshold = 0.8;
-
+  
         if (rect.top <= windowHeight * threshold) {
           container.classList.add("active");
+        } else {
+          container.classList.remove("active");
         }
       });
     }
-
+  
     checkScroll();
     window.addEventListener("scroll", checkScroll);
   });
+  
 
   document.addEventListener('mousemove', (e) => {
     const cursor = document.querySelector('.cursor');
     cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
   });
+
+  

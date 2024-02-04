@@ -555,6 +555,7 @@ h3 {
   width: 430px;
   top: 0;
   left: 0;
+  transform: translateX(100%);
   animation: floatTopToBottom 1s linear infinite alternate;
 }
 
